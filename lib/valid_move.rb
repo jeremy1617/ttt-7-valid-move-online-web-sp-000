@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, space)
-  if position_taken? && board[space].between(0,9)?
+  if position_taken? and board[space].between(0,9)?
     puts "good move"
   else
     puts "not vaild"
