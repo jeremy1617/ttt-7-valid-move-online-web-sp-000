@@ -2,7 +2,7 @@
 def valid_move?(board, space)
   if position_taken?
     stuff
-  else  
+  else
     something differnt
   end
 end
